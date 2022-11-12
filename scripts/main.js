@@ -1,0 +1,5 @@
+function main() {
+    validation()
+}
+
+main()

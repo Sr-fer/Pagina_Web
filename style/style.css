@@ -1,0 +1,269 @@
+.nav_title{
+    text-align: center;
+    font-size: 200%;
+    background: rgb(4, 109, 200);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.menu{
+    text-align: center;
+}
+
+.nav_links{
+    font-size: 200%;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: grid;
+    background: rgb(202, 205, 205);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.nav_links:hover{
+    text-decoration:underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.container_all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 5%;
+    background: rgb(202, 205, 205);
+    margin-top: 20px;
+    border-top: 6px solid rgb(3, 129, 112);
+}
+
+.container_img {
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.title_container{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+
+body{
+    background: url("/img/fondos-para-páginas-web-6.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+}
+
+.title{
+    font-size: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    background:rgb(4, 109, 200);
+    border: solid;
+    border-color: black;
+}
+
+.sub_title{
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sub_title:hover{
+    text-decoration:underline;
+}
+
+
+.container_all p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+.form{
+    flex-basis: 100%;
+    margin: 0;
+    text-align: right;
+    background: rgb(4, 109, 200);
+    border:solid;
+    border-width: 2px;
+}
+
+#fsubmit{
+    margin-right: auto;
+    margin-left: 0;
+    margin-right: 1%;
+    height: 25px;
+}
+
+.Sub{
+    margin-bottom: 16px;
+    margin-right: 6%;
+    margin-top: 7px;
+}
+
+.Other{
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background: rgb(202, 205, 205);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(202, 205, 205);
+}
+
+#einput {
+    margin-bottom: 16px;
+    margin-right: 1%;
+    height: 25px;
+    width: 300px;
+}
+
+#cinput {
+    margin-bottom: 16px;
+    margin-right: 1%;
+    height: 25px;
+    width: 300px;
+}
+
+#body_section {
+    gap:1%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+article {
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin-bottom: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.anuncio_imagen{
+    margin-bottom: 45%;
+    margin-top: 25%;
+    width: 100%;
+    word-break: break-all;
+}
+
+.link_noticias{
+    margin-top: 15%;
+    width: 100%;
+    word-break: break-all;
+    text-decoration: none;
+}
+
+.link_noticias:hover{
+    text-decoration:underline;
+}
+
+.title_container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    word-break: break-all;
+}
+
+#noticias {
+   margin-left: 1%;
+}
+
+.noticias_link{
+    color: rgb(5, 191, 129);
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black; 
+}
+
+.link:hover{
+    text-decoration:underline;
+}
+
+.pie_titulo{
+    width: 50%;  
+}
+
+.titulo_noticias_apartados{
+    text-align: left;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+.container_img_noticias{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img_noticias_medio{
+    width: 40%;
+    margin-top: 2%;
+}
+
+.pie_pagina{
+    width: 60%;
+    margin-top: 5%;
+}
+
+ #anuncios{
+    margin-right: 1%;
+ }
+
+ .container_img_noticias_tamanio1{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+ }
+
+.container_img_noticias_tamanio2{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+ }
+
